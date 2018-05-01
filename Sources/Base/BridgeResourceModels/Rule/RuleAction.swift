@@ -9,7 +9,7 @@
 import Foundation
 import Gloss
 
-public class RuleAction: Gloss.Decodable, Gloss.Encodable {
+public class RuleAction: JSONDecodable, JSONEncodable {
     
     public let address: String
     public let method: String

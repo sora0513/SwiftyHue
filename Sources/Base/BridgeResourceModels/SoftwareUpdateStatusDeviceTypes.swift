@@ -9,7 +9,7 @@
 import Foundation
 import Gloss
 
-public struct SoftwareUpdateStatusDeviceTypes: Gloss.Decodable, Gloss.Encodable {
+public struct SoftwareUpdateStatusDeviceTypes: JSONDecodable, JSONEncodable {
     
     /**
      Flag for when bridge update is avaliable

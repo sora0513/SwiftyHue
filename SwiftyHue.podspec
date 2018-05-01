@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
 
     base.source_files = 'Sources/Base/**/*.{h,swift}'
     base.dependency 'Alamofire', '~> 4.4.0'
-    base.dependency 'Gloss', '~> 1.2.4'
+    base.dependency 'Gloss', '~> 2.0', :git => 'https://github.com/hkellaway/Gloss.git', :branch => 'swift_4.1'
     base.dependency 'Log', '~> 1.0'
 
   end
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
     bridgeservices.osx.deployment_target = '10.11'
 
     bridgeservices.dependency 'Alamofire', '~> 4.4.0'
-    bridgeservices.dependency 'Gloss', '~> 1.2.4'
+    bridgeservices.dependency 'Gloss', '~> 2.0', :git => 'https://github.com/hkellaway/Gloss.git', :branch => 'swift_4.1'
     bridgeservices.dependency 'CocoaAsyncSocket', '~> 7.4.3'
     bridgeservices.dependency 'Log', '~> 1.0'
 

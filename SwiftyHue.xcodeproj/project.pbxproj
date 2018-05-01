@@ -511,6 +511,7 @@
 		292749E51CFA040E00D7A7B0 /* BridgeAuthenticatorConsumer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeAuthenticatorConsumer.swift; sourceTree = "<group>"; };
 		292749E71CFA043200D7A7B0 /* BridgeResultParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeResultParserTests.swift; sourceTree = "<group>"; };
 		293C9E921CFADE5200AB6199 /* bridge_response.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bridge_response.xml; sourceTree = "<group>"; };
+		9769A9E62092F7BE00982010 /* Gloss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Gloss.h; path = Carthage/Checkouts/Gloss/Sources/Gloss.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -594,6 +595,7 @@
 		1FEF51C41CF5FEA200446694 = {
 			isa = PBXGroup;
 			children = (
+				9769A9E62092F7BE00982010 /* Gloss.h */,
 				1FEF51FE1CF6035C00446694 /* Metadata */,
 				1FEF51F31CF5FFEB00446694 /* Sources */,
 				1FEF52151CF605CD00446694 /* SwiftyHue iOSTests */,
@@ -1883,7 +1885,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
@@ -1909,7 +1911,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
@@ -1972,7 +1974,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 arm64";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2031,7 +2033,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 arm64";
